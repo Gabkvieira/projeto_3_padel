@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante - Projeto 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1">Padel</h1>
+            <button class="navbar-toggler"tab data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-padel" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o padel
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ultimos-torneios" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Últimos toneios World Padel Tour (WPT)
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ranking" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Ranking
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-padel">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="images/slides/slide 1.jpeg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/slides/slide 2.jpeg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/slides/slide 3.jpeg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>    
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/padel/sobre.jpeg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                            <img src="images/padel/raquete.jpeg" class="mt-5 d-block w-100 rounded" alt="Foto dos diferentes formatos de raquete de padel">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored"> o padel</span></h2>
+                            <p>
+                                Padel é um esporte de raquete e bola que é disputado sempre em duplas. A bola é idêntica à de tênis embora varie na pressão interior. A quadra tem 20 metros de comprimento e 10 metros de largura, com paredes nos fundos (quadras mais antigas) e grade nas laterais. Atualmente a maioria das quadras utilizam vidro ou blindex no lugar das paredes, permitindo excelente visualização do jogo. O piso pode variar entre cimento (quadras mais antigas) e grama sintética (quadras atuais).
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a origem</span></h3>
+                            <p>
+                                O Padel originou-se por volta de 1890, quando passageiros de navios ingleses tentaram adaptar a prática de tênis ao espaço dos navios. 
+                            </p>
+                            <p>
+                                Esse tênis de alto mar, como ficou conhecido no início, era praticado numa quadra de dimensões menores e protegida por telas. Somente em 1924, o Padel passou a ser praticado em terra, quando o norte americano Frank Beal improvisou algumas quadras nos parques municipais de Nova Iorque. Por essa época, o esporte passou a ser chamado de Padel-tenis. Em 1969, Enrique Corcuera construiu a primeira quadra de Padel em um hotel de Acapulco, no México. Foi Corcuera quem definiu as dimensões de quadra e o regulamento que rege o esporte mundialmente. Outro grande responsável pela difusão do Padel foi o príncipe espanhol Afonso de Hohenlohen. Entusiasmado com o novo esporte, o nobre levou-o para a expansão do Padel para outros países europeus. Atualmente, o Padel é organizado e regulamentado a nível mundial pela FIP (Federación Internacional de Padel), entidade que conta com 15 associados, nos quais se destacam o Brasil, Argentina, México e a Espanha.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a raquete</span></h3>
+                            <p>
+                                As raquetes geralmente são feitas de carbono ou fibra de vidro, podendo conter alguns materiais diferentes dependendo do modelo. As raquetes também variam no formato, tendo os formatos redondo, lágrima (ou gota) e diamante. A raquete redonda tem mais controle e é a mais indicada para iniciantes. A raquete lágrima tem um bom equilíbrio entre controle e potência e a raquete diamante é focada mais para a potência, sendo indicada para jogadores mais avançados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ultimos-torneios" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Últimos torneios <span class="text-colored">World Padel Tour (WPT)</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/torneios/malmo.jpeg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-2">
+                            Areco Malmö Padel Open
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/torneios/mexico.jpeg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-2">
+                            Skechers México Padel Open
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/torneios/barcelona.jpeg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-2">
+                            Boss Barcelona Master Final
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ranking" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Ranking <span class="text-colored">mundial</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-ranking">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#feminino" class="fw-bold text-star nav-link text-colored active">Feminino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#masculino" class="fw-bold text-star nav-link text-colored">Masculino</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="feminino">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block" src="images/ranking/feminino/rankfem1.jpeg" alt="Foto ranking feminino 1">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block" src="images/ranking/feminino/rankfem1-2.jpeg" alt="Foto ranking feminino 2">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/feminino/rankfem3.jpeg" alt="Foto ranking feminino 3">
+                                        
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/feminino/rankfem4.jpeg" alt="Foto ranking feminino 4">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/feminino/rankfem6.jpeg" alt="Foto ranking feminino 5">
+                                        
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/feminino/rankfem6.jpeg" alt="Foto ranking feminino 6">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="masculino">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block" src="images/ranking/masculino/rankingmasc1.jpeg" alt="Foto ranking masculino 1">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block" src="images/ranking/masculino/rankingmasc1-2.jpeg" alt="Foto ranking masculino 2">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/masculino/rankingmasc3.jpeg" alt="Foto ranking masculino 3">
+                                        
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/masculino/rankingmasc3-2.jpeg" alt="Foto ranking masculino 4">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/masculino/rankingmasc5.jpeg" alt="Foto ranking masculino 5">
+                                        
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <img class="d-block" src="images/ranking/masculino/rankingmasc6.jpeg" alt="Foto ranking masculino 6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
